@@ -14,18 +14,18 @@ implemented in PyTorch.
 
 ## Model zoo
 
-|          Model          |  Backbone  |    Datasets     |  eval size  | Mean IoU(paper) |                                                         Mean IoU(this repo)                                                         |
-|:-----------------------:|:----------:|:---------------:|:-----------:|:---------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
-|     DeepLabv3_plus      | xception65 | cityscape(val)  | (1025,2049) |      78.8       |        [78.93](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_segmentron.pth)        |
-|     DeepLabv3_plus      | xception65 |    coco(val)    |   480/520   |        -        |     [70.50](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_coco_segmentron.pth)      |
-|     DeepLabv3_plus      | xception65 | pascal_aug(val) |   480/520   |        -        |  [89.56](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_pascal_aug_segmentron.pth)   |
-|     DeepLabv3_plus      | xception65 | pascal_voc(val) |   480/520   |        -        |  [88.39](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_pascal_voc_segmentron.pth)   |
-|     DeepLabv3_plus      | resnet101  | cityscape(val)  | (1025,2049) |        -        |       [78.27](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_resnet101_segmentron.pth)        |
-|          Danet          | resnet101  | cityscape(val)  | (1024,2048) |      79.9       |               [79.34](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/danet101_segmentron.pth)                |
-|         Pspnet          | resnet101  | cityscape(val)  | (1025,2049) |      78.63      |           [77.00](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/pspnet_resnet101_segmentron.pth)            |
-|         UPerNet         |   Swin-b   |   ade20k(val)   |  (480,480)  |      51.6       |              [49.12](https://github.com/juliantang0/SegmenTron/releases/download/v0.1.0/upernet_swinb_segmentron.pth)               |
-|       MaskFormer        |   Swin-t   |   ade20k(val)   |  (480,480)  |      48.8       |             [47.11](https://github.com/juliantang0/SegmenTron/releases/download/v0.1.0/maskformer_swint_segmentron.pth)             |
-|       MaskFormer        |   Swin-b   |   ade20k(val)   |  (480,480)  |      52.3       |             [51.87](https://github.com/juliantang0/SegmenTron/releases/download/v0.1.0/maskformer_swinb_segmentron.pth)             |
+|          Model          |  Backbone  |    Datasets     |  eval size  | Mean IoU(paper) |                                                       Mean IoU(this repo)                                                        |
+|:-----------------------:|:----------:|:---------------:|:-----------:|:---------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
+|     DeepLabv3_plus      | xception65 | cityscape(val)  | (1025,2049) |      78.8       |      [78.93](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_segmentron.pth)       |
+|     DeepLabv3_plus      | xception65 |    coco(val)    |   480/520   |        -        |    [70.50](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_coco_segmentron.pth)    |
+|     DeepLabv3_plus      | xception65 | pascal_aug(val) |   480/520   |        -        | [89.56](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_pascal_aug_segmentron.pth) |
+|     DeepLabv3_plus      | xception65 | pascal_voc(val) |   480/520   |        -        | [88.39](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_xception_pascal_voc_segmentron.pth) |
+|     DeepLabv3_plus      | resnet101  | cityscape(val)  | (1025,2049) |        -        |      [78.27](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/deeplabv3_plus_resnet101_segmentron.pth)      |
+|          Danet          | resnet101  | cityscape(val)  | (1024,2048) |      79.9       |              [79.34](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/danet101_segmentron.pth)              |
+|         Pspnet          | resnet101  | cityscape(val)  | (1025,2049) |      78.63      |          [77.00](https://github.com/LikeLy-Journey/SegmenTron/releases/download/v0.1.0/pspnet_resnet101_segmentron.pth)          |
+|         UPerNet         |   Swin-b   |   ade20k(val)   |  (480,480)  |      51.6       |            [49.12](https://github.com/juliantang324/SegmenTron/releases/download/v0.1.0/upernet_swinb_segmentron.pth)            |
+|       MaskFormer        |   Swin-t   |   ade20k(val)   |  (480,480)  |      48.8       |          [47.11](https://github.com/juliantang324/SegmenTron/releases/download/v0.1.0/maskformer_swint_segmentron.pth)           |
+|       MaskFormer        |   Swin-b   |   ade20k(val)   |  (480,480)  |      52.3       |          [51.87](https://github.com/juliantang324/SegmenTron/releases/download/v0.1.0/maskformer_swinb_segmentron.pth)           |
 
 ### real-time models
 |     Model      |   Backbone    |    Datasets    |  eval size  | Mean IoU(paper) |                                                   Mean IoU(this repo)                                                   |  FPS   |
